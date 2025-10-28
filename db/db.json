@@ -1,0 +1,248 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "username": "harini",
+      "profile_pic": "/assets/harini.jpg",
+      "image": "/assets/software.jpeg",
+      "caption": "Enjoying a sunny day! ☀️",
+      "likes": [
+        { "userId": 2, "username": "sneha" },
+        { "userId": 3, "username": "prajith" }
+      
+       
+      ],
+      "comments": [
+        {
+          "user": {
+            "userId": 2,
+            "username": "sneha",
+            "profile_pic": "/assets/sneha.jpg"
+          },
+          "comment": "Looks amazing!"
+        },
+        {
+          "user": {
+            "userId": 3,
+            "username": "prajith",
+            "profile_pic": "/assets/prajith.jpg"
+          },
+          "comment": "Beautiful view 😍"
+        }
+         
+      ],
+      "timestamp": "2025-10-19T09:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "username": "sneha",
+      "profile_pic": "/assets/sneha.jpg",
+      "image": "/assets/travel.jpeg",
+      "caption": "My latest travel adventure!",
+      "likes": [
+        { "userId": 1, "username": "harini" },
+        { "userId": 3, "username": "prajith" }
+      ],
+      "comments": [
+        {
+          "user": {
+            "userId": 1,
+            "username": "harini",
+            "profile_pic": "/assets/harini.jpg"
+          },
+          "comment": "Wow, I want to go there!"
+        }
+      ],
+      "timestamp": "2025-10-18T14:30:00Z"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "username": "prajith",
+      "profile_pic": "/assets/prajith.jpg",
+      "image": "/assets/music.jpeg",
+      "caption": "Lost in the rhythm 🎶",
+      "likes": [
+        { "userId": 1, "username": "harini" },
+        { "userId": 2, "username": "sneha" }
+      ],
+      "comments": [
+        {
+          "user": {
+            "userId": 1,
+            "username": "harini",
+            "profile_pic": "/assets/harini.jpg"
+          },
+          "comment": "Great vibes!"
+        }
+      ],
+      "timestamp": "2025-10-19T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "username": "annushiya",
+      "profile_pic": "/assets/anudp.jpg",
+      "image":"/assets/anupost2.jpg",
+      "caption": "Onam Vibes❤",
+      "likes": [
+        { "userId": 1, "username": "harini" },
+        { "userId": 2, "username": "sneha" }
+      ],
+      "comments": [
+        {
+          "user": { 
+            "userId": 3,
+            "username": "prajith",
+            "profile_pic": "/assets/prajith.jpg"
+          },
+          "comment": "Absolutely beautiful!"
+        }
+      ],
+      "timestamp": "2025-10-20T09:30:00Z"
+    }
+  ],
+
+  "profile": [
+    {
+      "userId": 1,
+      "username": "harini",
+      "profile_pic": "/assets/harini.jpg"
+    }
+  ],
+  "profiles": [
+    {
+      "userId": 1,
+      "username": "harini",
+      "profile_pic": "/assets/harini.jpg"
+    },
+    {
+      "userId": 2,
+      "username": "sneha",
+      "profile_pic": "/assets/sneha.jpg"
+
+    },{
+    "userId": 3,
+      "username": "prajith",
+      "profile_pic": "/assets/prajith.jpg"
+    }
+     
+  ],
+
+  "suggestions": [
+    {
+      "userId": 2,
+      "username": "kanisaa",
+      "profile_pic": "/assets/kanisaa.jpg"
+    },
+    {
+      "userId": 3,
+      "username": "Bavanith",
+      "profile_pic": "/assets/bavanith.jpg"
+    },
+    {
+      "userId": 4,
+      "username": "navith",
+      "profile_pic": "/assets/navith.jpg"
+    }
+  ], "reels": [
+    {
+      "id": 1,
+      "username": "bavanith",
+      "profile_pic": "assets/bavanith.jpg",
+      "reel_image": "assets/reel1.jpeg"
+    },
+    {
+      "id": 2,
+      "username": "kanisaa",
+      "profile_pic": "assets/kanisaa.jpg",
+      "reel_image": "assets/reel2.jpeg"
+    },
+    {
+      "id": 3,
+      "username": "navith",
+      "profile_pic": "assets/navith.jpg",
+      "reel_image": "assets/reel3.jpeg"
+    }
+  ],
+  "messages": [
+    { "id": 1, "sender": "harini", "receiver": "sneha", "text": "Hey! How are you?", "timestamp": "2025-10-23T10:00:00Z" },
+    { "id": 2, "sender": "sneha", "receiver": "harini", "text": "I’m good! Just chilling 😄", "timestamp": "2025-10-23T10:02:00Z" },
+    { "id": 3, "sender": "harini", "receiver": "prajith", "text": "Loved your new post!", "timestamp": "2025-10-23T10:05:00Z" }
+  ],
+ "notifications": [
+    {
+      "id": 1,
+      "type": "like",
+      "user": "sneha",
+      "postId": 1,
+      "message": "sneha liked your post."
+    },
+    {
+      "id": 2,
+      "type": "comment",
+      "user": "prajith",
+      "postId": 2,
+      "message": "prajith commented: Awesome!"
+    }
+  ],
+  "threads": [
+    {
+      "id": 1,
+      "username": "harini",
+      "content": "Just launched my new project 🚀"
+    },
+    {
+      "id": 2,
+      "username": "sneha",
+      "content": "Working on some React magic ✨"
+    }
+  ],
+
+  "stories": [
+  {
+    "userId": 1,
+    "username": "harini",
+    "profile_pic": "/assets/harini.jpg",
+    "stories": [
+      {
+        "id": 1,
+        "image": "/assets/story1.jpeg",
+        "timestamp": "2025-10-19T07:00:00Z"
+      },
+      {
+        "id": 2,
+        "image": "/assets/story2.jpeg",
+        "timestamp": "2025-10-19T09:00:00Z"
+      }
+    ]
+  },
+  {
+    "userId": 2,
+    "username": "sneha",
+    "profile_pic": "/assets/sneha.jpg",
+    "stories": [
+      {
+        "id": 1,
+        "image": "/assets/story2.jpeg",
+        "timestamp": "2025-10-18T15:00:00Z"
+      }
+      
+    ]
+  },
+  {
+    "userId": 3,
+    "username": "prajith",
+    "profile_pic": "/assets/prajith.jpg",
+    "stories": [
+      {
+        "id": 1,
+        "image": "/assets/story3.jpeg",
+        "timestamp": "2025-10-19T10:00:00Z"
+      }
+    ]
+  }
+]
+}
