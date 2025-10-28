@@ -1,0 +1,63 @@
+.reels-container {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+.reels-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.reels-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.reel-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.reel-card:hover {
+  transform: scale(1.03);
+}
+
+.reel-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  display: block;
+}
+
+.reel-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  gap: 10px;
+  background-color: #fff;
+}
+
+.reel-profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+ 
+}
+
+.no-reels {
+  text-align: center;
+  font-size: 18px;
+  color: #777;
+}
